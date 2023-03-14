@@ -9,9 +9,18 @@
 </head>
 <body>
 
-    <div id="app">{{ message }}</div>
+    <!-- Vue container -->
+    <div id="app">
 
+        <!-- Content container -->
+        <div class="container">
 
+            <img :src="image_src" :alt="image_alt">
+            <h1>{{message}}</h1>
+            
+        </div>
+
+    </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
